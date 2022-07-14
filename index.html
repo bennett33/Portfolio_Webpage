@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet"> 
+    <title>Bennett Lanzetta's Portfolio</title>
+    <link rel="icon" href="assets/melon.png">
+</head>
+<body>
+
+<!-- top bar with search -->
+<div class="top-bar-container">
+    <div class="top-bar">
+        <div class="name-and-logo">
+            <!-- <div class="home-box">
+                <img id="home-image" src="assets/home.png" alt="">
+            </div> -->
+            <a id="name" href="#profile"><h1>Bennett Lanzetta</h1> </a>
+        </div>
+        <div>
+            <a class="menu-link" href="#about_me">About</a>
+            <a class="menu-link" href="#projects">Projects</a>
+            <a class="menu-link" href="#skills">Skills</a>
+            <a class="menu-link" href="#education">Education</a>
+            <a class="menu-link" href="#experience">Experience</a>
+            <a class="menu-link" href="#contact">Contact</a>
+        </div>
+    </div>
+</div>
+
+
+<!-- profile pic box -->
+
+<div class="profile-box" id="profile">
+    <div class="column-container" id="bg-color-about">
+        <div class="column-left">
+            <div class="profile-image-box">
+                <!-- <img src="assets/profile-icon.jpg"> -->
+            </div>
+        </div>
+        <div class="column-right">
+            <div class="col-box">
+                <h1>Software Engineer</h1>
+                <p id="intro">Passionate and solution-driven professional seeking an entry level role in software development. Expertise includes database architecture, UI/UX design, and website development. Proven track record of collaborating with diverse teams and exceeding performance goals while fostering a positive culture in fast-paced work environments.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- about me -->
+<div class="about-box" id="about_me">
+    <div class="column-container">
+        <div class="col-box">
+            <h1>About Me</h1>
+            <p>I am a Software Engineer based in California. In May of 2021 I graduated from Colby College with a degree in East Asian Studies and Anthropology. After working for a year as a graphic designer, I decided to get into web design for a change of pace. I took a coding bootcamp with Coding Dojo and am continuing to learn more every day.</p>
+        </div>
+    </div>
+</div>
+
+
+<!-- projects -->
+<div class="projects-box"  id="projects">
+    <div class="column-container">
+        <div class="col-box-title">
+            <h1>Projects</h1>
+        </div>
+    </div>
+    <div class="column-container" id="project-row">
+        <div class="col-box">
+            <h1 id="project-title">Chatroom App</h1>
+            <p id="project-desc" class="built-with">
+                Built With: React, MongoDB, Express
+            </p>
+            <p id="project-desc">
+                - Chatroom website that allows users to join chatrooms
+            </p>
+            <p id="project-desc">
+                - Designed the wireframe and workflow approach using Balsamiq
+            </p>
+            <p id="project-desc">
+                - Used Trello board to outline project
+            </p>
+            <div id="project-git-btn-con">
+                <p><a href="https://github.com/bennett33/chatroom_project">Github</a></p>
+            </div>
+        </div>
+        <div class="col-box">
+            <img id="project-gif" src="assets/chatroom2.gif" alt="">
+        </div>
+    </div>
+    <div class="column-container" id="project-row">
+        <div class="col-box">
+            <h1 id="project-title">Global ATM</h1>
+            <p id="project-desc" class="built-with">
+                Built With: C#, ASP.NET Core, Express, MySQL, Foreign Currency Conversion API
+            </p>
+            <p id="project-desc">
+                - C# based bank atm website where user can register and log in deposit money, withdraw money, convert foreign currency,
+                and report a card missing or stolen
+            </p>
+            <p id="project-desc">
+                - Designed the wireframe and workflow approach using Balsamiq
+            </p>
+            <p id="project-desc">
+                - Used Trello board to outline project
+            </p>
+            <div id="project-git-btn-con">
+                <p><a href="https://github.com/bennett33/GlobalATM">Github</a></p>
+            </div>
+        </div>
+        <div class="col-box">
+            <img id="project-gif" src="assets/atm.gif" alt="">
+        </div>
+    </div>
+    <div class="column-container" id="project-row-bottom">
+        <div class="col-box">
+            <h1 id="project-title">Billy Bubble's Boba Bungalow</h1>
+            <p id="project-desc" class="built-with">
+                Built With: Python, MySQL
+            </p>
+            <p id="project-desc">
+                - App that focuses on placing boba tea orders online
+            </p>
+            <p id="project-desc">
+                - Designed the wireframe and workflow approach using Balsamiq
+            </p>
+            <div id="project-git-btn-con">
+                <p><a href="https://github.com/bennett33/Python_Boba_Project">Github</a></p>
+            </div>
+        </div>
+        <div class="col-box">
+            <img id="project-gif" src="assets/tea_shop.gif" alt="">
+        </div>
+    </div>
+</div>
+
+<!-- skills -->
+<div class="skills-box" id="skills">
+    <div class="column-container">
+        <div class="col-box-title">
+            <h1>Skills</h1>
+        </div>
+    </div>
+    <div class="column-container">
+        <div class="skills-col-box">
+            <h1 id="skill-title">Languages</h1>
+        </div>
+        <div class="skills-col-box">
+            <p id="skill-desc">
+                JavaScript, Python, C#, SQL, HTML, CSS
+            </p>
+        </div>
+    </div>
+    <div class="column-container">
+        <div class="skills-col-box">
+            <h1 id="skill-title">Frameworks/Libraries</h1>
+        </div>
+        <div class="skills-col-box">
+            <p id="skill-desc">
+                React, Flask, Bootstrap, Node.js, ASP.NET Core, Entity Framework Core, jQuery, Socket.io, Bcrypt
+            </p>
+        </div>
+    </div>
+    <div class="column-container">
+        <div class="skills-col-box">
+            <h1 id="skill-title">Databases</h1>
+        </div>
+        <div class="skills-col-box">
+            <p id="skill-desc">
+                MySQL, MongoDB
+            </p>
+        </div>
+    </div>
+    <div class="column-container">
+        <div class="skills-col-box">
+            <h1 id="skill-title">Version Control Systems</h1>
+        </div>
+        <div class="skills-col-box">
+            <p id="skill-desc">
+                Git, GitHub
+            </p>
+        </div>
+    </div>
+    <div class="column-container">
+        <div class="skills-col-box">
+            <h1 id="skill-title">Concepts</h1>
+        </div>
+        <div class="skills-col-box">
+            <p id="skill-desc">
+                RESTful, CRUD, API Design, AJAX
+            </p>
+        </div>
+    </div>
+    <div class="column-container">
+        <div class="skills-col-box">
+            <h1 id="skill-title">Design</h1>
+        </div>
+        <div class="skills-col-box">
+            <p id="skill-desc">
+                Photoshop, Illustrator, After Affects
+            </p>
+        </div>
+    </div>
+    <div class="column-container">
+        <div class="skills-col-box">
+            <h1 id="skill-title">Spoken Languages</h1>
+        </div>
+        <div class="skills-col-box">
+            <p id="skill-desc">
+                English, Chinese, French
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<!-- education -->
+<div class="education-box" id="education">
+    <div class="column-container">
+        <div class="col-box-title">
+            <h1>Education</h1>
+        </div>
+    </div>
+    <div class="column-container">
+        <div class="edu-col-box">
+            <div class="edu-img-con">
+                <img id="edu-img" src="assets/dojo.png">
+                <div>
+                    <h1 id="edu-title">Coding Dojo</h1>
+                    <p id="edu-title-desc">Full Stack Development Certificate</p>
+                </div>
+            </div>
+        </div>
+        <div class="edu-col-box">
+            <p id="edu-desc">
+                Python Stack
+            </p>
+            <p id="edu-desc">
+                MERN Stack
+            </p>
+            <p id="edu-desc">
+                C# Stack
+            </p>
+            <p id="edu-desc">
+                Web Fundamentals
+            </p>
+        </div>
+    </div>
+    <div class="column-container">
+        <div class="edu-col-box">
+            <div class="edu-img-con">
+                <img id="edu-img" src="assets/colby.jpg">
+                <div>
+                    <h1 id="edu-title">Colby College</h1>
+                    <p id="edu-title-desc">Bachelor of Arts</p>
+                </div>
+            </div>
+        </div>
+        <div class="edu-col-box">
+            <p id="edu-desc">
+                East Asian Studies Major
+            </p>
+            <p id="edu-desc">
+                Anthropology Minor
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- experience -->
+<div class="experience-box" id="experience">
+    <div class="column-container">
+        <div class="col-box-title">
+            <h1>Experience</h1>
+        </div>
+    </div>
+    <div class="column-container">
+        <div class="experience-col-box">
+            <h1 id="experience-title">Graphic Designer</h1>
+            <h1 id="experience-title-desc">Admanline</h1>
+        </div>
+        <div class="experience-col-box">
+            <p id="experience-desc">
+                - Served as lead graphic artist of a print company; assisted with website design and creation of marketing materials
+            </p>
+            <p id="experience-desc">
+                - Spearheaded photo and design editing––ensuring optimal quality and adherence to client expectations
+            </p>
+            <p id="experience-desc">
+                - Communicated with clients to plan and strategize project expectations, ensuring timely delivery and optimal service
+            </p>
+            <p id="experience-desc">
+                - Assisted with print production operations upon securing approval of artwork from customers
+            </p>
+        </div>
+    </div>
+    <div class="column-container">
+        <div class="experience-col-box">
+            <h1 id="experience-title">Student Advisor</h1>
+            <h1 id="experience-title-desc">DavisConnects (Colby College)</h1>
+        </div>
+        <div class="experience-col-box">
+            <p id="experience-desc">
+                - Served as lead graphic artist of a print company; assisted with website design and creation of marketing materials
+            </p>
+            <p id="experience-desc">
+                - Spearheaded photo and design editing––ensuring optimal quality and adherence to client expectations
+            </p>
+            <p id="experience-desc">
+                - Communicated with clients to plan and strategize project expectations, ensuring timely delivery and optimal service
+            </p>
+            <p id="experience-desc">
+                - Assisted with print production operations upon securing approval of artwork from customers
+            </p>
+        </div>
+    </div>
+    <div class="column-container">
+        <div class="experience-col-box">
+            <h1 id="experience-title">Film Production Intern</h1>
+            <h1 id="experience-title-desc">Morgan Creek Producions</h1>
+        </div>
+        <div class="experience-col-box">
+            <p id="experience-desc">
+                - Entrusted to critique scripts and make recommendations to producers for potential production pick-up
+            </p>
+            <p id="experience-desc">
+                - Monitored company's characters in clients' merchandise and tracked e-commerce sales to ensure accuracy of licensing revenues 
+            </p>
+            <p id="experience-desc">
+                - Consulted with legal department in determining which clients would be permitted to license characters for their merchandise
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- contact banner -->
+<div class="contact-bar">
+    <div class="contact-banner-con" id="contact">
+        <h1>Contact Me</h1>
+        <div class="contact-links">
+            <div class="contact-image-con">
+                <a href="https://www.linkedin.com/in/bennett-lanzetta/"><img src="assets/linkedin.png" alt="linkedin"></a>
+                <h3>Linkedin</h3>
+            </div>
+            <div class="contact-image-con">
+                <a href="https://docs.google.com/document/d/1s2S8YN_y26eRsvIc13Uiqz9h1jJBlBPMa5ZHW0hJ6V4/edit?usp=sharing"><img src="assets/resume.png" alt="resume"></a>
+                <h3>Resume</h3>
+            </div>
+            <div class="contact-image-con">
+                <a href="https://github.com/bennett33"><img src="assets/github_PNG58.png" alt="github"></a>
+                <h3>Github</h3>
+            </div>
+            <div class="contact-image-con">
+                <a href="mailto: blanzetta3@gmail.com"><img src="assets/email.png" alt="email"></a></a>
+                <h3>Email</h3>
+            </div>
+        </div>
+        <p id="copyright-name">© 2022 Bennett Lanzetta</p>
+    </div>
+</div>
+</body>
+</html>
